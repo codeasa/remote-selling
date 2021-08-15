@@ -3,9 +3,15 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    colors: {
+      'fwd': '#E87722'
+    }
+
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ['group-hover'],
+    },
   },
   plugins: [],
 }
